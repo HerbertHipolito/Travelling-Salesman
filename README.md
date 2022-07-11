@@ -10,10 +10,6 @@ The Travelling Salesman problem can be easily solved by brute force. However, Th
 * Hill Climbing(the submethod used is '2 swap').
 * VND.
 * Random Multi Start.
-<<<<<<< HEAD
-=======
-* Iterated Local Search(The submethod used is 'VND').
->>>>>>> c0ae40ad8e3fad4f240b8cf8c153e7e1efbd59b8
 * GRASP(the nodes of the initial route in each iteration are randomly selected from the k shortest available route using the costs as weights).
 * Brute Force(This one is not recommended if the 'k' is larger than 10 since it might take a long time).
 
@@ -42,10 +38,6 @@ The below table shows us the costs found by the methods.
 | Hill Climbing         | 1084.1500     | 0.000721          |
 | VND                   | 394.3840      | 0.001521          |
 | Random Multi Start    | 846.6160      | 0.003752          |
-<<<<<<< HEAD
-=======
-| Iterated Local Search | 393.7940      | 0.001762          |
->>>>>>> c0ae40ad8e3fad4f240b8cf8c153e7e1efbd59b8
 | Grasp                 | 392.0400      | 0.140790          |
 
 
